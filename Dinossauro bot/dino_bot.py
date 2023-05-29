@@ -33,12 +33,11 @@ def imageGrab():
 
     imagem = ImageGrab.grab(box) 
     imagem_cinza = ImageOps.grayscale(imagem) 
-    a = array(imagem_cinza.getcolors()) 
+    a = array(imagem_cinza.getcolors())  
 
     if a.sum() != TOT_CINZA: 
         print(a.sum()) 
-
-    print(a.sum())
+                
     return a.sum() 
 
 

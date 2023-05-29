@@ -34,7 +34,7 @@ Certifique-se de ter os seguintes requisitos instalados:
 3. Execute o script Python:
 
    ```
-   python main.py
+   python dino_bot.py
    ```
 
 4. Abra o jogo do dinossauro no seu navegador usando o seguinte link: [https://fivesjs.skipser.com/trex-game/](https://fivesjs.skipser.com/trex-game/)
